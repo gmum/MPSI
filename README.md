@@ -22,8 +22,8 @@ Repozytorium przedmiotu „Matematyczne Podstawy Sztucznej Inteligencji” prowa
 Stworzyć środowisko razem z wymaganymi paczkami:
 conda create --name mpsi python=3.10 numpy=1.22.2 scipy=1.11.1 matplotlib=3.7.2 scikit-learn=1.2.0 jupyter
 
-Aktywować środowisko: Unix/MacOS: conda activate ml
-Windows: w Anaconda Prompt: activate ml
+Aktywować środowisko: Unix/MacOS: conda activate mpsi \\
+Windows: w Anaconda Prompt: activate mpsi
 
 Doinstalować PyTorcha: https://pytorch.org/ (2.0.1)
 GPU: conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
